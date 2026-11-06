@@ -1,0 +1,8 @@
+{
+  "spreadsheet": "PASTE the Google Sheet URL here",
+  "worksheet": "Updated Log 2026",
+  "projects": ["Example project A", "Example project B"],
+  "new_rows": "first_blank",
+  "service_account_file": "service_account.json",
+  "port": 8765
+}

@@ -1,0 +1,5 @@
+{
+  "_comment": "Display-only grouping of Project labels into board filters. Leave empty unless you want to merge differently-spelled labels: \"map\": {\"Old spelling\": \"Board name\"}, \"order\": [\"Board name\"].",
+  "order": [],
+  "map": {}
+}
