@@ -7,8 +7,12 @@ A task board in your browser, connected to **your own Google Sheet**. Takes abou
 - Cursor or Claude Code (the agent)
 
 ## Steps
-1. **Download:** go to https://github.com/aadish98/MiniProjectManagement, click **Code > Download ZIP**, and unzip it on your Desktop.
-2. **Open the folder** in Cursor (File > Open Folder), or run `claude` in a terminal inside it.
+1. **Get the code.** Open Terminal (Windows: install Git from https://git-scm.com first) and paste:
+   ```
+   cd ~/Desktop && git clone https://github.com/aadish98/MiniProjectManagement.git
+   ```
+   On a Mac, if it offers to install developer tools, click **Install**, then paste the line again.
+2. **Open the folder** `MiniProjectManagement` (on your Desktop) in Cursor (File > Open Folder), or run `cd MiniProjectManagement && claude` in the terminal.
 3. **Paste this to the agent:**
    ```
    Set up my task board. Follow AGENTS.md. I'm not technical, so explain simply, one step at a time.

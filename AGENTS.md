@@ -28,8 +28,8 @@ Do these in order. If you are blocked, tell the person exactly what you need.
 - **Start it again:** Mac: double-click `run.command`. Windows: run `.venv\Scripts\python app.py` in this folder (offer to make a desktop shortcut).
   Keep that window open while using the board. Close it to stop.
 - **Windows:** use `python` instead of `python3`, and `.venv\Scripts\python` instead of `.venv/bin/python`. Use `copy` instead of `cp`.
-- **Get the newest version:** download the ZIP again from the GitHub page and copy over the new files, but keep their own `service_account.json`,
-  `config.json` and `project_groups.json`. (If they use git: `git pull`.) Then re-run `pip install -r requirements.txt` in the `.venv`.
+- **Get the newest version:** run `git pull` in this folder, then `.venv/bin/pip install -r requirements.txt`. Their private files
+  (`service_account.json`, `config.json`, `project_groups.json`) are not touched.
 
 ## What the board does (explain simply if asked)
 - Views: **Board**, **Gantt** (timeline) and **Weekly report**.
